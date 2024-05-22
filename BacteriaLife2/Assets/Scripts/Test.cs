@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Test : MonoBehaviour
 {
     float move_x = 0, move_y = 0;
     public float food;
-    public int health;
+    public int health, dna;
+    GameObject Player_Overlay;
+   
     [SerializeField] float speed;
     void Start()
     {
         food = 4; health = 10;
+        Player_Overlay = GameObject.FindGameObjectWithTag("Overlay0");
     }
 
     void Update()
@@ -57,6 +61,8 @@ public class Test : MonoBehaviour
         if (collision.gameObject.tag == "grass")
         {
             food += 10f;
+            dna += 1;
+            Player_Overlay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "ÄÍÊ: " + dna;
             Destroy(collision.gameObject);
         }
     }
