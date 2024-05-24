@@ -6,6 +6,7 @@ public class ViewCamera : MonoBehaviour
 {
     GameObject player;
     [SerializeField] GameObject grass_teamplate;
+    public bool pause;
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -18,7 +19,7 @@ public class ViewCamera : MonoBehaviour
         {
             transform.position += (player.transform.position + new Vector3(0, 0, -10) - this.transform.position) * (dist - 4) / 90;
         }
-        if (Time.time % 1 == 0)
+        if (Time.time % 1 == 0 && pause == false) 
         {
             for (int i = 1; i < 6; i++)
             {
