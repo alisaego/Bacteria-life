@@ -1,0 +1,1870 @@
+fileFormatVersion: 2
+guid: f721d1e8f00932b4c846972151c511f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 348
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60ad9c923cd51640a0e48c4d60dab1b
+      internalID: -1448765943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 394
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b9c376601e1ee4ca99d108cb36d663
+      internalID: -1094918474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 394
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8e5838b49058044a01afc524daf44b
+      internalID: -1541240235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 394
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5802d65c478a0499c7fe106eefd9d7
+      internalID: -1038696337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_4
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 394
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3b3765eb648f242b0554196bde0536
+      internalID: -1096839881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 394
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b52587bccf48a408f73738431ffec7
+      internalID: -1986521792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_6
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 418
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4840cc1cbfbf43b71821e2498fc44
+      internalID: 415173913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_7
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 417
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046475b5bdd82342918e5e0b907615d
+      internalID: 1464149679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 405
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead8aca8f862f342b90b9b7f6a01dcc
+      internalID: -1274114736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_9
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 405
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b31734ad258214ab4cf31d78e8802e
+      internalID: 1563738238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_10
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 406
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70d2943f0fd60489967d1712bfc2c9
+      internalID: 2069254284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 402
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51fdece3bafbfb42a547b6ee3c9b822
+      internalID: -1448196541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_12
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 421
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba7824b7066134e94746362b07a1fd
+      internalID: 1504740619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 422
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc080a81bb10f594abf2c73690b40bd6
+      internalID: -957422733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_14
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 414
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ae6ed2c726474c818dfadd1338367
+      internalID: -211305367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_15
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 417
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e1f9400ed4cec4ea7da6e9c85a012c
+      internalID: 918635518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_16
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 393
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad66a0d5922e31429fa0eaf1333010d
+      internalID: -129669883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 361
+        width: 108
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986e2c2161431764f8a93f5772e4b047
+      internalID: -445301937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 394
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe053301b1161940bfddc4a72faa2bf
+      internalID: -1394311964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 406
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549e8623f7bd4944add10c766ba7562
+      internalID: 176022347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 394
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95f4a48a9d3efc43a33bba0d2e4c1fb
+      internalID: 713649442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 406
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d011647e3b60aa4bb1898080e6b0250
+      internalID: -1010900097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 393
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3ddb26cc69395499a133979ffb97ae
+      internalID: 567176045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_23
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9db807576c8064ebba441580969f9e
+      internalID: -740507111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_24
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 381
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80f2565952c31a419e3d61eabdd5cc3
+      internalID: -1461195241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 393
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edefc9157340e784581e30dbe28824a9
+      internalID: -285026954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43c960e8f6ced4e8a8fa270eb67a45
+      internalID: 401727351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 240
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb94606e09c9eb40943ca9dffa17e27
+      internalID: -736750741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_28
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 240
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456e31540aee5d244b7f84d2c723de6b
+      internalID: 472347612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_29
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 350
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41660d228e470564cb1d787a203ecfae
+      internalID: 488761666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_30
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 350
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5457f5fea6084a54eac5165cff96bf20
+      internalID: 332260402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_31
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 341
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042cb182df1488049b6b5a5f5e25a2cc
+      internalID: -1393573435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_32
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 341
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0ec64d8d4468468f35f1cd119ad79
+      internalID: 520168487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_33
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 348
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78f6cad791b90744b5de501351cfec5
+      internalID: -852334938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_34
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 348
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcf32ae183e6eb438917fe4ee080fe1
+      internalID: -729836534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_35
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 344
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ced9e9f162b72479b78d50d0189085
+      internalID: 1776457712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_36
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 369
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6e69b15cfd8ab46bbc7a35cb89e3e3
+      internalID: -1019233996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_37
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 333
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a1716a122fdd44bc15881f8fc2d2b
+      internalID: 94453248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_38
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 344
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc67f4b9db57a841aae0883ed4498d5
+      internalID: -2129322817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 227
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc1f53c9dd9913408188bb438d94d54
+      internalID: -1125766729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_40
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 267
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9901f1e32088194f984eea5484fab4f
+      internalID: -468416595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_41
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 267
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69648de285299594e820bd20fc401de7
+      internalID: -281918641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_42
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 301
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8375225d292b31a4c910fc1ed81b0724
+      internalID: 43812939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_43
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 280
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c7c2f39c5d83409c6b8dd93d88f6e
+      internalID: 2135601034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_44
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 296
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a82b3ae28d8824ba9e2eac737ebf5f
+      internalID: -1787863533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_45
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 280
+        width: 5
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08696babe97d29741a351141b29eb4d4
+      internalID: -1676135600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_46
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 282
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf66cc262a1b3fc4ba1dbce95a2545e5
+      internalID: 491487804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_47
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 280
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faef06c6de62c4b4a8a8ac45c35a24b7
+      internalID: 1677249968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_48
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 280
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b57f29238fef040b2926f6ef346d53
+      internalID: -1221233969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_49
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 279
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba3cf765348384e98a2152a09647c3
+      internalID: -1452464171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 108
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a840d2d7e03b4e869bdf85493a592
+      internalID: -1186379769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_51
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 210
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecb0b2044859954087139af026953ce
+      internalID: -987116188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_52
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 210
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ffe48d81378b14198ee216720f6d23
+      internalID: -565359371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_53
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 210
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e566afa309751c4494d95044fa2d187
+      internalID: 1882525908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_54
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 245
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d192938e222ef4f9577874a8164b06
+      internalID: -1150073738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_55
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 210
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e891dab4f386cc49a24a5acad49d969
+      internalID: -880043461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_56
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 218
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793b6a638f8eb554bbc573d413cf8aef
+      internalID: -1089673939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_57
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 171
+        width: 273
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a207972721245634d98d55b231d94a12
+      internalID: 1059998106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_58
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 171
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4ead7feb4d67241970b709faac3ad5
+      internalID: 569584426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_60
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 183
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79ed831eb16a548a093386c23f5953
+      internalID: 1322763963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_61
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 92
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2f9ce5c9aab148abea2ad2b56f0de
+      internalID: 1529140797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_62
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 150
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07871ce15a0aef640b443de68209bc3b
+      internalID: -1217141755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_63
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 69
+        width: 344
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea7105522c8e24994215122c3decb1
+      internalID: -987975573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_64
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 78
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefbcd06cbf5f4148bd8e992a429f46e
+      internalID: 8873240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_65
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 78
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd2576b48e5b2428fc970cffddc070
+      internalID: 1561224670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_66
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 69
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce88a17f3bf12194abd777ccbc1f4c4b
+      internalID: -142486354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 91
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4517982058805245899a73b7c3e832b
+      internalID: 1991760228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_68
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 92
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193b68840929d814ba5dbfbb71366a05
+      internalID: 1752823501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_69
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 91
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad19c238cced44e41b8e9719097ce9b1
+      internalID: -1767432293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_70
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 92
+        width: 15
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728569526bad9e04ebdc7c832e36ca54
+      internalID: -1482133751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_71
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 91
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c4270b7ce325c4394ef58b0953f348
+      internalID: -2109587279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 34
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ffb039e993ef64a983198d9e376c36
+      internalID: 1845759723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ffe86400885be4d8665fde0266cc84
+      internalID: -322120434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_74
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 33
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa30b346fc1e5604a8dbf0aea5d5c6e3
+      internalID: 1598203620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_75
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 34
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8000eb9e52ca12c4d9dbb7f5485a62e6
+      internalID: -160679456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_76
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab75a2e14699d7d419019631d100a8b9
+      internalID: -2075342370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77110a27d805b5b42b01badf98955266
+      internalID: 11305285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_80
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b6a563ebcd7784aa5ed48574a2f7d3
+      internalID: 535955641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Agario - Game Screen_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 8
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4f3b5c2d774c841b41c315186260e0
+      internalID: 2119208892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Agario - Game Screen_0: -1448765943
+      Mobile - Agario - Game Screen_1: -1094918474
+      Mobile - Agario - Game Screen_10: 2069254284
+      Mobile - Agario - Game Screen_11: -1448196541
+      Mobile - Agario - Game Screen_12: 1504740619
+      Mobile - Agario - Game Screen_13: -957422733
+      Mobile - Agario - Game Screen_14: -211305367
+      Mobile - Agario - Game Screen_15: 918635518
+      Mobile - Agario - Game Screen_16: -129669883
+      Mobile - Agario - Game Screen_17: -445301937
+      Mobile - Agario - Game Screen_18: -1394311964
+      Mobile - Agario - Game Screen_19: 176022347
+      Mobile - Agario - Game Screen_2: -1541240235
+      Mobile - Agario - Game Screen_20: 713649442
+      Mobile - Agario - Game Screen_21: -1010900097
+      Mobile - Agario - Game Screen_22: 567176045
+      Mobile - Agario - Game Screen_23: -740507111
+      Mobile - Agario - Game Screen_24: -1461195241
+      Mobile - Agario - Game Screen_25: -285026954
+      Mobile - Agario - Game Screen_26: 401727351
+      Mobile - Agario - Game Screen_27: -736750741
+      Mobile - Agario - Game Screen_28: 472347612
+      Mobile - Agario - Game Screen_29: 488761666
+      Mobile - Agario - Game Screen_3: -1038696337
+      Mobile - Agario - Game Screen_30: 332260402
+      Mobile - Agario - Game Screen_31: -1393573435
+      Mobile - Agario - Game Screen_32: 520168487
+      Mobile - Agario - Game Screen_33: -852334938
+      Mobile - Agario - Game Screen_34: -729836534
+      Mobile - Agario - Game Screen_35: 1776457712
+      Mobile - Agario - Game Screen_36: -1019233996
+      Mobile - Agario - Game Screen_37: 94453248
+      Mobile - Agario - Game Screen_38: -2129322817
+      Mobile - Agario - Game Screen_39: -1125766729
+      Mobile - Agario - Game Screen_4: -1096839881
+      Mobile - Agario - Game Screen_40: -468416595
+      Mobile - Agario - Game Screen_41: -281918641
+      Mobile - Agario - Game Screen_42: 43812939
+      Mobile - Agario - Game Screen_43: 2135601034
+      Mobile - Agario - Game Screen_44: -1787863533
+      Mobile - Agario - Game Screen_45: -1676135600
+      Mobile - Agario - Game Screen_46: 491487804
+      Mobile - Agario - Game Screen_47: 1677249968
+      Mobile - Agario - Game Screen_48: -1221233969
+      Mobile - Agario - Game Screen_49: -1452464171
+      Mobile - Agario - Game Screen_5: -1986521792
+      Mobile - Agario - Game Screen_50: -1186379769
+      Mobile - Agario - Game Screen_51: -987116188
+      Mobile - Agario - Game Screen_52: -565359371
+      Mobile - Agario - Game Screen_53: 1882525908
+      Mobile - Agario - Game Screen_54: -1150073738
+      Mobile - Agario - Game Screen_55: -880043461
+      Mobile - Agario - Game Screen_56: -1089673939
+      Mobile - Agario - Game Screen_57: 1059998106
+      Mobile - Agario - Game Screen_58: 569584426
+      Mobile - Agario - Game Screen_59: 777500524
+      Mobile - Agario - Game Screen_6: 415173913
+      Mobile - Agario - Game Screen_60: 1322763963
+      Mobile - Agario - Game Screen_61: 1529140797
+      Mobile - Agario - Game Screen_62: -1217141755
+      Mobile - Agario - Game Screen_63: -987975573
+      Mobile - Agario - Game Screen_64: 8873240
+      Mobile - Agario - Game Screen_65: 1561224670
+      Mobile - Agario - Game Screen_66: -142486354
+      Mobile - Agario - Game Screen_67: 1991760228
+      Mobile - Agario - Game Screen_68: 1752823501
+      Mobile - Agario - Game Screen_69: -1767432293
+      Mobile - Agario - Game Screen_7: 1464149679
+      Mobile - Agario - Game Screen_70: -1482133751
+      Mobile - Agario - Game Screen_71: -2109587279
+      Mobile - Agario - Game Screen_72: 1845759723
+      Mobile - Agario - Game Screen_73: -322120434
+      Mobile - Agario - Game Screen_74: 1598203620
+      Mobile - Agario - Game Screen_75: -160679456
+      Mobile - Agario - Game Screen_76: -2075342370
+      Mobile - Agario - Game Screen_77: 2049713990
+      Mobile - Agario - Game Screen_78: 1266843917
+      Mobile - Agario - Game Screen_79: 11305285
+      Mobile - Agario - Game Screen_8: -1274114736
+      Mobile - Agario - Game Screen_80: 535955641
+      Mobile - Agario - Game Screen_81: 2089300117
+      Mobile - Agario - Game Screen_82: 283094645
+      Mobile - Agario - Game Screen_83: 2119208892
+      Mobile - Agario - Game Screen_9: 1563738238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

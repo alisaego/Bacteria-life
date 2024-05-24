@@ -1,50 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 public class Test : MonoBehaviour
 {
     float move_x = 0, move_y = 0;
     public float food;
-    public int health, dna;
+    public int health, dna, score;
     GameObject Player_Overlay;
    
     [SerializeField] float speed;
     void Start()
     {
         food = 4; health = 10;
+        score = 0;
         Player_Overlay = GameObject.FindGameObjectWithTag("Overlay0");
+        Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 1000.0f, 1, 1);
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ViewCamera>().pause == false)
         {
-            move_y = 1;
+
+
+            if (Input.GetKey(KeyCode.W))
+            {
+                move_y = 1;
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                move_y = -1;
+            }
+            else
+            {
+                move_y = 0;
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                move_x = 1;
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                move_x = -1;
+            }
+            else
+            {
+                move_x = 0;
+            }
         }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            move_y = -1;
-        }
-        else
-        {
-            move_y = 0;
-        }
-       
-        if (Input .GetKey(KeyCode.D))
-        {
-            move_x = 1;
-        }
-        else if (Input .GetKey(KeyCode.A))
-        {
-            move_x = -1;
-        }
-        else
-        {
-            move_x = 0;
-        }
-        
     }
     private void FixedUpdate()
     {
@@ -62,6 +69,8 @@ public class Test : MonoBehaviour
         {
             food += 10f;
             dna += 1;
+            score += 1;
+            Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 1000.0f, 1, 1);
             Player_Overlay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "ÄÍÊ: " + dna;
             Destroy(collision.gameObject);
         }
