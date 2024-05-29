@@ -7,6 +7,11 @@ public class ViewCamera : MonoBehaviour
     GameObject player;
     [SerializeField] GameObject grass_teamplate;
     public bool pause;
+
+    public void ChangesPause()
+    {
+        pause = !pause;
+    }
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
