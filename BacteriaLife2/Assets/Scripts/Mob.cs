@@ -1,19 +1,45 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Mob : MonoBehaviour
 {
-    float[] weight = new float[3];
-    GameObject target;
+    public float[] weight = new float[3];
+    public GameObject target;
     public float speed, health, food;
 
     private void Start()
     {
-        for (int i = 0; i < weight.Length; i++)
+        weight[0] = 0.5f + Random.Range(-0.10f, 0.10f);
+        weight[1] = -0.5f + Random.Range(-0.10f, 0.10f);
+        weight[2] = -0.5f + Random.Range(-0.10f, 0.10f);
+    }
+    private void FixedUpdate()
+    {
+        
+        if (target != null)
         {
-            weight[i] = Random.Range(-2f, 2f);
+            this.transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed / 10);
+        }
+        else
+        {
+            Collider2D[] col = Physics2D.OverlapCircleAll(this.transform.position, 10f);
+            float maxR = -1000;
+            foreach (Collider2D go in col)
+            {
+                if (go.tag == "grass")
+                {
+                    float r = GetPrice(go.gameObject);
+                    if (r > maxR)
+                    {
+                        maxR = r;
+                        target = go.gameObject;
+                    }
+                }
+            }
         }
     }
     float GetPrice(GameObject tar)
@@ -34,5 +60,13 @@ public class Mob : MonoBehaviour
 
         return r;
     }
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "grass")
+        {
+            food += 10f;
+            Destroy(collision.gameObject);
+        }
+    }
+
 }
