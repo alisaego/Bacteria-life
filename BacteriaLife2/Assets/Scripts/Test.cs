@@ -62,6 +62,11 @@ public class Test : MonoBehaviour
 
 
         transform.position += new Vector3(move_x, move_y, 0) * (speed / 10);
+
+        if (health < 0)
+            Destroy(gameObject);
+        if (food > 50)
+            food = 50;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

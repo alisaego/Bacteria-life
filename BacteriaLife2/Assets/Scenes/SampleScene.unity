@@ -418,9 +418,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0062965406, y: 0}
+  m_Offset: {x: -0.08700257, y: 0}
   serializedVersion: 2
-  m_Radius: 0.506292
+  m_Radius: 2.6935468
 --- !u!212 &800902967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -462,8 +462,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.8113208, g: 0.16379493, b: 0.61044735, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6e6996a2c437d304280e25f8c41f5f34, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -482,8 +482,8 @@ Transform:
   m_GameObject: {fileID: 800902965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4478, y: -1.5168, z: 0}
-  m_LocalScale: {x: 1.0535561, y: 1.0543243, z: 1}
+  m_LocalPosition: {x: 0.19, y: -0.13, z: 0}
+  m_LocalScale: {x: 0.3211239, y: 0.3218852, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   food: 0
-  health: 0
+  health: 1000000
   dna: 0
   score: 0
   speed: 1
@@ -1357,13 +1357,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3604144945349356657, guid: 1a068a2ebd72a1d47a3b7f8c761aef4c, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7582810333847198027, guid: 1a068a2ebd72a1d47a3b7f8c761aef4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5829996
+      value: -14.87
       objectReference: {fileID: 0}
     - target: {fileID: 7582810333847198027, guid: 1a068a2ebd72a1d47a3b7f8c761aef4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56505054
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7582810333847198027, guid: 1a068a2ebd72a1d47a3b7f8c761aef4c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1412,11 +1416,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4587839368401190738, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.38
+      value: 6.05
       objectReference: {fileID: 0}
     - target: {fileID: 4587839368401190738, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.07
+      value: -7.45
       objectReference: {fileID: 0}
     - target: {fileID: 4587839368401190738, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1453,6 +1457,18 @@ PrefabInstance:
     - target: {fileID: 6725459217672274170, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
       propertyPath: m_Name
       value: Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864917615073971839, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
+      propertyPath: m_Radius
+      value: 2.8642907
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864917615073971839, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.032751817
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864917615073971839, guid: 7f6b044cb06d5614d8f22ffe6bd923ce, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.23150899
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

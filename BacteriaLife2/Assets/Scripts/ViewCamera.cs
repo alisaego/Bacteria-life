@@ -20,12 +20,15 @@ public class ViewCamera : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float dist = Vector2.Distance(this.transform.position, player.transform.position);
-        if (dist > 4f)
+        if (player != null)
         {
-            transform.position += (player.transform.position + new Vector3(0, 0, -10) - this.transform.position) * (dist - 4) / 90;
+            float dist = Vector2.Distance(this.transform.position, player.transform.position);
+            if (dist > 4f)
+            {
+                transform.position += (player.transform.position + new Vector3(0, 0, -10) - this.transform.position) * (dist - 4) / 90;
+            }
         }
-        if (Time.time % 1 == 0 && pause == false) 
+        if (Time.time % 1 == 0 && pause == false)
         {
             for (int i = 1; i < 6; i++)
             {

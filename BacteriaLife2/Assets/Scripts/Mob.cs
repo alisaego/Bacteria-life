@@ -9,7 +9,7 @@ public class Mob : MonoBehaviour
 {
     public float[] weight = new float[3];
     public GameObject target;
-    public float speed, health, food;
+    public float speed, health = 20, food;
 
     private void Start()
     {
@@ -22,7 +22,7 @@ public class Mob : MonoBehaviour
         
         if (target != null)
         {
-            this.transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed / 10);
+            this.transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed / 15);
         }
         else
         {
@@ -41,6 +41,18 @@ public class Mob : MonoBehaviour
                 }
             }
         }
+
+        if (food > 0)
+            food -= 0.1f;
+        else
+            health -= 1;
+        if (food > 50)
+        {
+            food -= 20f;
+            Instantiate(this.gameObject);
+        }
+        if (health < 0)
+            Destroy(gameObject);
     }
     float GetPrice(GameObject tar)
     {
@@ -68,5 +80,7 @@ public class Mob : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+  
 
 }
