@@ -27,15 +27,15 @@ public class Mob : MonoBehaviour
         else
         {
             Collider2D[] col = Physics2D.OverlapCircleAll(this.transform.position, 10f);
-            float maxR = -1000;
+            float maxP = -1000;
             foreach (Collider2D go in col)
             {
                 if (go.tag == "grass")
                 {
                     float r = GetPrice(go.gameObject);
-                    if (r > maxR)
+                    if (r > maxP)
                     {
-                        maxR = r;
+                        maxP = r;
                         target = go.gameObject;
                     }
                 }
@@ -63,7 +63,7 @@ public class Mob : MonoBehaviour
         {
             if (go.gameObject.tag == "grass")
                 countGrass += 1;
-            if (go.gameObject.tag == "mob")
+            if (go.gameObject.tag == "mob" || go.gameObject.tag == "Player")
                 countMob += 1;
         }
         r += countGrass * weight[0];

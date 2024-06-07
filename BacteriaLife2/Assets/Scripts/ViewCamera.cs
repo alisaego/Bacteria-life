@@ -12,6 +12,7 @@ public class ViewCamera : MonoBehaviour
     public void ChangesPause()
     {
         pause = !pause;
+        GameObject.FindGameObjectWithTag("Overlay0").transform.GetChild(4).gameObject.SetActive(true);
     }
     private void Start()
     {
@@ -25,7 +26,7 @@ public class ViewCamera : MonoBehaviour
             float dist = Vector2.Distance(this.transform.position, player.transform.position);
             if (dist > 4f)
             {
-                transform.position += (player.transform.position + new Vector3(0, 0, -10) - this.transform.position) * (dist - 4) / 90;
+                this.transform.position += (player.transform.position + new Vector3(0, 0, -10) - this.transform.position) * (dist - 4) / 90;
             }
         }
         if (Time.time % 1 == 0 && pause == false)
