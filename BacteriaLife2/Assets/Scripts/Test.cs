@@ -79,7 +79,7 @@ public class Test : MonoBehaviour
             dna += 1;
             score += 1;
             Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 1000.0f, 1, 1);
-            Player_Overlay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "ÄÍÊ: " + dna;
+            Player_Overlay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "DNA: " + dna;
             Destroy(collision.gameObject);
         }
     }
