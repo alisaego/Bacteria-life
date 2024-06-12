@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class menu : MonoBehaviour
 {
@@ -12,6 +13,6 @@ public class menu : MonoBehaviour
 
     public void Exitt()
     {
-       
+        EditorApplication.isPlaying = false;
     }
 }

@@ -10,7 +10,6 @@ public class Test : MonoBehaviour
     public float food;
     public int health, dna, score;
     GameObject Player_Overlay;
-   
     [SerializeField] float speed;
     void Start()
     {
