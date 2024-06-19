@@ -15,9 +15,17 @@ public class back : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        img1.transform.position += new Vector3(0, 1, 0) * (speed / 10);
-        img2.transform.position += new Vector3(0, 1, 0) * (speed / 10);
-        if (img1.transform.position.y > -10.54)
-            img1.transform.position = new Vector3(0, 10.76f, 0);
+        if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ViewCamera>().pause == false)
+        {
+            img1.transform.position -= new Vector3(0, 1, 0) * (speed / 10);
+            img2.transform.position -= new Vector3(0, 1, 0) * (speed / 10);
+
+            if (img1.transform.position.y < transform.position.y-10.44)
+                img1.transform.position = transform.position + new Vector3(0, 10.54f, 10);
+
+
+            if (img2.transform.position.y < transform.position.y-10.44)
+                img2.transform.position = img1.transform.position + new Vector3(0, 10.54f, 0);
+        }
     }
 }

@@ -10,7 +10,8 @@ public class Test : MonoBehaviour
     public float food;
     public int health, dna, score;
     GameObject Player_Overlay;
-    [SerializeField] float speed;
+    public float speed;
+    public float endurance;
     void Start()
     {
         food = 4; health = 10;
@@ -57,7 +58,7 @@ public class Test : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ViewCamera>().pause == false)
         {
             if (food > 0)
-                food -= 0.01f;
+                food -= (0.01f / endurance);
             else
                 health -= 1;
 

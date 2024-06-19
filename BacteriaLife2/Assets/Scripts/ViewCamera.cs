@@ -9,6 +9,12 @@ public class ViewCamera : MonoBehaviour
     [SerializeField] GameObject mob_teamplate;
     public bool pause;
 
+
+    public void MenuSkills()
+    {
+        pause = !pause;
+        GameObject.FindGameObjectWithTag("Overlay0").transform.GetChild(6).gameObject.SetActive(true);
+    }
     public void ChangesPause()
     {
         pause = !pause;

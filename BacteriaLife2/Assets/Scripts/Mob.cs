@@ -19,40 +19,42 @@ public class Mob : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
-        if (target != null)
+        if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ViewCamera>().pause == false)
         {
-            this.transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed / 15);
-        }
-        else
-        {
-            Collider2D[] col = Physics2D.OverlapCircleAll(this.transform.position, 10f);
-            float maxP = -1000;
-            foreach (Collider2D go in col)
+            if (target != null)
             {
-                if (go.tag == "grass")
+                this.transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed / 15);
+            }
+            else
+            {
+                Collider2D[] col = Physics2D.OverlapCircleAll(this.transform.position, 10f);
+                float maxP = -1000;
+                foreach (Collider2D go in col)
                 {
-                    float r = GetPrice(go.gameObject);
-                    if (r > maxP)
+                    if (go.tag == "grass")
                     {
-                        maxP = r;
-                        target = go.gameObject;
+                        float r = GetPrice(go.gameObject);
+                        if (r > maxP)
+                        {
+                            maxP = r;
+                            target = go.gameObject;
+                        }
                     }
                 }
             }
-        }
 
-        if (food > 0)
-            food -= 0.1f;
-        else
-            health -= 1;
-        if (food > 50)
-        {
-            food -= 20f;
-            Instantiate(this.gameObject);
+            if (food > 0)
+                food -= 0.1f;
+            else
+                health -= 1;
+            if (food > 50)
+            {
+                food -= 20f;
+                Instantiate(this.gameObject);
+            }
+            if (health < 0)
+                Destroy(gameObject);
         }
-        if (health < 0)
-            Destroy(gameObject);
     }
     float GetPrice(GameObject tar)
     {
