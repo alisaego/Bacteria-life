@@ -66,9 +66,9 @@ public class ViewCamera : MonoBehaviour
                 a.transform.position = GameObject.FindWithTag("MainCamera").transform.position + new Vector3(pos_x, pos_y, 10);
             }
         }
-        if (Time.time % 10 == 0 && pause == false)
+        if (Time.time % 5 == 0 && pause == false)
         {
-            for (int i = 1; i < 2; i++)
+            for (int i = 1; i < 5; i++)
             {
 
                 GameObject a = Instantiate(mob_teamplate);

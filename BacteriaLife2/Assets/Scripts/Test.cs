@@ -17,7 +17,7 @@ public class Test : MonoBehaviour
         food = 4; health = 10;
         score = 0;
         Player_Overlay = GameObject.FindGameObjectWithTag("Overlay0");
-        Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 1000.0f, 1, 1);
+        Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 100.0f, 1, 1);
     }
 
     void Update()
@@ -78,7 +78,7 @@ public class Test : MonoBehaviour
             food += 10f;
             dna += 1;
             score += 1;
-            Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 1000.0f, 1, 1);
+            Player_Overlay.transform.GetChild(2).GetComponent<RectTransform>().localScale = new Vector3((score + 1) / 100.0f, 1, 1);
             Player_Overlay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "DNA: " + dna;
             Destroy(collision.gameObject);
         }
