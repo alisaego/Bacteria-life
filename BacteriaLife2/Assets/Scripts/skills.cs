@@ -6,7 +6,7 @@ using UnityEngine;
 public class skills : MonoBehaviour
 {
     GameObject Player_Overlay;
-    int count_speed, count_endurance;
+    public int count_speed, count_endurance;
 
     public void Speed()
     {

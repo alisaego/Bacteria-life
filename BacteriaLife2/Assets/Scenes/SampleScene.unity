@@ -206,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1844488973}
-        m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: Return
+      - m_Target: {fileID: 1174620121}
+        m_TargetAssemblyTypeName: lose_game, Assembly-CSharp
+        m_MethodName: restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1792,6 +1792,7 @@ MonoBehaviour:
   score: 0
   speed: 1
   endurance: 1
+  lose_menu: {fileID: 1174620117}
 --- !u!50 &800902970
 Rigidbody2D:
   serializedVersion: 4
@@ -1962,8 +1963,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280821800
-  m_fontColor: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2098,8 +2099,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280821800
-  m_fontColor: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2358,9 +2359,10 @@ GameObject:
   - component: {fileID: 1174620118}
   - component: {fileID: 1174620120}
   - component: {fileID: 1174620119}
+  - component: {fileID: 1174620121}
   m_Layer: 5
   m_Name: "\u043F\u0440\u043E\u0438\u0433\u0440\u044B\u0448"
-  m_TagString: Untagged
+  m_TagString: lose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2424,6 +2426,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174620117}
   m_CullTransparentMesh: 1
+--- !u!114 &1174620121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174620117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c3e73308a6b984a8b213ae3d1d37a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187737409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,6 +2531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e030af79b79a59149b991b71f15b2ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  count_speed: 0
+  count_endurance: 0
 --- !u!1 &1196629024
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,8 +4266,9 @@ GameObject:
   - component: {fileID: 2017189439}
   - component: {fileID: 2017189441}
   - component: {fileID: 2017189440}
+  - component: {fileID: 2017189442}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: "\u0432\u044B\u0438\u0433\u0440\u044B\u0448"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4317,6 +4334,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017189438}
   m_CullTransparentMesh: 1
+--- !u!114 &2017189442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017189438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829a972cebec5f245810fefbfc61b434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117708408
 GameObject:
   m_ObjectHideFlags: 0

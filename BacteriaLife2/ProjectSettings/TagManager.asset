@@ -7,6 +7,7 @@ TagManager:
   - grass
   - Overlay0
   - mob
+  - lose
   layers:
   - Default
   - TransparentFX

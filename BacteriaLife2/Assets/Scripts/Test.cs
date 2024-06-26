@@ -12,6 +12,7 @@ public class Test : MonoBehaviour
     GameObject Player_Overlay;
     public float speed;
     public float endurance;
+    [SerializeField] GameObject lose_menu;
     void Start()
     {
         food = 4; health = 10;
@@ -65,10 +66,16 @@ public class Test : MonoBehaviour
 
             transform.position += new Vector3(move_x, move_y, 0) * (speed / 10);
 
-            if (health < 0)
-                Destroy(gameObject);
+            
             if (food > 50)
                 food = 50;
+
+
+        }
+        if (health < 0)
+        {
+            lose_menu.GetComponent<lose_game>().Lose_game();
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(181, 253, 177, 0);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
